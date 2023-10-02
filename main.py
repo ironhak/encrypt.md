@@ -6,8 +6,7 @@ from modules import user_password as login
 
 # Use the current working directory and specify a specific folder
 current_directory = os.getcwd()
-specific_folder = '2023'  # Change to the folder you want to use
-folder_path = os.path.join(current_directory, specific_folder)
+specific_folder = ''  # Change to the folder you want to use
 
 # Set file last modified timestamp equal to YAML modified property
 os.system('clear')
